@@ -7,18 +7,19 @@ import pojos.Person;
 
 public class HealthProfileReader {
 	
+	// HashMap<Key, Value>
 	public static Map<String,Person> database = new HashMap<String,Person>();
-	
+
 	static
     {
-    	Person pallino = new Person();
-		Person pallo = new Person("Pinco","Pallo");
-		HealthProfile hp = new HealthProfile(68.0,1.72);
-		Person john = new Person("John","Doe",hp);
+    	// Person pallino = new Person();
+		// Person pallo = new Person("Pinco","Pallo");
+		// HealthProfile hp = new HealthProfile(68.0,1.72);
+		Person john = new Person("John","Doe","10-10-1989");
 		
-		database.put(pallino.getFirstname()+" "+pallino.getLastname(), pallino);
-		database.put(pallo.getFirstname()+" "+pallo.getLastname(), pallo);
-		database.put(john.getFirstname()+" "+john.getLastname(), john);
+		// database.put(pallino.getFirstname()+" "+pallino.getLastname(), pallino);
+		// database.put(pallo.getFirstname()+" "+pallo.getLastname(), pallo);
+		database.put(john.getFirstname()+" "+john.getLastname()+" "+john.getBirthdate(), john);
     }
 	/**
 	 * The health profile reader gets information from the command line about
@@ -35,17 +36,32 @@ public class HealthProfileReader {
 		} else if (argCount < 2) {
 			System.out.println("Are you sure you gave me a first and lastname?");
 		} else if (argCount == 2) {
+			System.out.println("You miss the birthdate");
+		} else if (argCount == 3) {
 			String fname = args[0];
 			String lname = args[1];
+			String bdate = args[2];
 			// read the person from the DB
-			Person p= database.get(fname+" "+lname);
+			Person p= database.get(fname+" "+lname+" "+bdate);
 			if (p!=null) { 
-				System.out.println(fname+" "+lname+"'s health profile is: "+p.gethProfile().toString());
+				System.out.println(fname+" "+lname+" "+bdate);
 			} else {
 				System.out.println(fname+" "+lname+" is not in the database");
 			}
 		}
 		// add the case where there are 3 parameters, the third being a string that matches "weight", "height" or "bmi"
+	}
+
+	public static void createPerson(String firstname, String lastname, Date birthdate) {
+
+	}
+
+	public static void displayHealthProfile(Long personId) {
+
+	}
+
+	public static void updateHealthProfile(Long personId, Double height, Double weight) {
+		
 	}
 	
 	//public static void initializeDatabase() {

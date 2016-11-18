@@ -1,0 +1,562 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"getPers",
+				"getPersonbyName"
+			],
+			[
+				"getPerson",
+				"getPersonByFirstName"
+			],
+			[
+				"book",
+				"bookstore"
+			],
+			[
+				"get",
+				"getBMI"
+			],
+			[
+				"person",
+				"personId"
+			],
+			[
+				"de",
+				"designation"
+			],
+			[
+				"catego",
+				"categorize_layers"
+			],
+			[
+				"step_t",
+				"step_three"
+			],
+			[
+				"step",
+				"step_one"
+			],
+			[
+				"totale",
+				"totale_huur_exc_btw"
+			],
+			[
+				"huur",
+				"huur_parkeren_column"
+			],
+			[
+				"ser",
+				"service_kosten_column"
+			],
+			[
+				"netto",
+				"netto_huur_column"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"c",
+				"current_file"
+			],
+			[
+				"pr",
+				"print_a_line"
+			],
+			[
+				"cu",
+				"current_line"
+			],
+			[
+				"che",
+				"cheeses"
+			],
+			[
+				"am",
+				"amount_of_crackers"
+			],
+			[
+				"ch",
+				"cheese_and_crackers"
+			],
+			[
+				"box",
+				"boxes_of_crackers"
+			],
+			[
+				"chees",
+				"cheese_count"
+			],
+			[
+				"print",
+				"print_two_again"
+			],
+			[
+				"ar",
+				"arg2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "java",
+		"selected_items":
+		[
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"ython",
+				"Set Syntax: Python"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"fu",
+				"Snippet: Function"
+			],
+			[
+				"func",
+				"Snippet: Function"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/remco/dev/lab-intro-sde/introsde",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/myworkspace",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/myworkspace/HealthProfileReader",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/myworkspace/HealthProfileReader/src",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/Examples",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/Examples/Books-XPATH",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/Books-XPATH"
+	],
+	"file_history":
+	[
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/Books-XPATH/XPathTest.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/Books-XPATH/people.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/HealthProfileReader/HealthProfileReader.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/myworkspace/HealthProfileReader/src/HealthProfileReader.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/HealthProfileReader/pojos/Person.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/HealthProfileReader/pojos/HealthProfile.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myworkspace/HealthProfileReader.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/Examples/Books-XPATH/people.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/Examples/Books-XPATH/XPathTestAdvance.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/Examples/Books-XPATH/XPathTest.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/myworkspace/lab02/resources/META-INF/services.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/HealthProfileReader.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myspace/Books-XPATH/people.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myspace/Books-XPATH/books.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/myworkspace/HealthProfileReader/build.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myspace/Books-XPATH/XPathTest.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/myworkspace/HealthProfileReader/src/pojos/Person.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab03/myspace/Books-XPATH/XPathTestAdvance.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/myworkspace/HealthProfileReader/src/HealthProfileReader.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/Examples/HealthProfileReader/build.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/myworkspace/HealthProfileReader/src/pojos/HealthProfile.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/myworkspace/HealthProfileReader/src/pojos/Person.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/Examples/axis2-quickstart/build.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/myworkspace/HealthProfileReader/build.xml",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/Examples/HealthProfileReader/src/pojos/HealthProfile.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/pojos/Person.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/Examples/HealthProfileReader/src/pojos/Person.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab02/Examples/HealthProfileReader/src/HealthProfileReader.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/pojos/HealthProfile.java",
+		"/Users/remco/dev/java-excercises/ConstructorExample.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/pojos/Person.class",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/pojos/HealthProfile.class",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/HealthProfileReader.class",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/World/Hello.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/src/Hello.java",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/bin/Hello.class",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/themes/proshop/style.css",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/includes/wc-template-hooks.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/themes/storefront/inc/woocommerce/hooks.php",
+		"/Users/remco/OneDrive/Docs/usb/Reservemap_bladwijzers/Bladwijzers 2008-12-08.json",
+		"/Users/remco/dev/lab-intro-sde/introsde/lab01/Examples/bin/HealthProfileReader.class",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/templates/loop/sale-flash.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/themes/proshop/woocommerce/includes/wc-template-hooks.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/sftp-config.json",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/templates/single-product.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/templates/content-product_cat.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/templates/archive-product.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/includes/wc-template-functions.php",
+		"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/templates/content-product.php",
+		"/Users/remco/dev/lab-intro-sde/introsde/.gitignore",
+		"/Volumes/Data/Backup 2012-01-03/remco_kortekaas/Documents/Werk/Webdesign/Prefabs/Website/css/main.css",
+		"/Applications/MAMP/htdocs/himalayan/wp-content/themes/proshop/style.css",
+		"/Users/remco/dev/lab-intro-sde/apache-tomcat-8.5.5/webapps/ROOT/index.jsp",
+		"/Users/remco/java/Employee.java",
+		"/Users/remco/java/regexMatches.java",
+		"/Users/remco/java/RegexMatches2.java",
+		"/Users/remco/lab-intro-sde/introsde/lab01/Examples/src/Test.java",
+		"/Users/remco/java/StringDemo.java",
+		"/Users/remco/java/MyFirstJavaProgram.java",
+		"/Users/remco/java/Puppy.java",
+		"/Users/remco/java/Puppy2.java",
+		"/Users/remco/java/Employeetest.java",
+		"/Users/remco/java/Employee2.java",
+		"/Users/remco/java/Employee3(static-variables).java",
+		"/Users/remco/java/ForEachLoop.java",
+		"/Users/remco/java/TestArray.java",
+		"/Users/remco/java/java-getting-started/pom.xml",
+		"/Users/remco/Dropbox/Projecten/HIMALAYAN/docs/rugtas loting/random_number.py",
+		"/Applications/MAMP/htdocs/himalayan/wp-content/themes/storefront/style.css",
+		"/Users/remco/.qgis2/python/plugins/LayerFilter/layer_filter_dialog.py",
+		"/Users/remco/Dropbox/Projecten/petersburg/Test/format.py",
+		"/Users/remco/Dropbox/Projecten/petersburg/Test/test.py",
+		"/Users/remco/.qgis2/python/plugins/LayerFilter/layer_filter.py",
+		"/Users/remco/Dropbox/Projecten/petersburg/Test/Bronnamen.txt",
+		"/Users/remco/Dropbox/Projecten/petersburg/Test/output.txt",
+		"/Users/remco/Dropbox/Projecten/petersburg/gasunie plugin jop/Gasunie/Gasunie_Module.py",
+		"/Users/remco/Dropbox/Projecten/petersburg/Test/excel-filter.py",
+		"/Users/remco/python/openpyxl/read.py",
+		"/Users/remco/python/openpyxl/write.py",
+		"/Users/remco/Dropbox/Projecten/petersburg/buisleidingen-export.py",
+		"/Applications/MAMP/htdocs/himalayan/wp-config.php",
+		"/Users/remco/Dropbox/Projecten/HIMALAYAN/docs/product-description-en.html",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/js/custom.js",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/css/main.css",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/huuropbrengsten_huurder_parkeren.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/aandeelhouder_contactgegevens.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/huuropbrengsten_huurder_totalen.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/verhuur.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/huuropbrengsten_huurder_pand.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/objecten.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/objecten_taxatie.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/includes/nav.html",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/includes/head.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/includes/plugins/DataTables-1.10.7/extensions/TableTools/css/dataTables.tableTools.css",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/public/huurders.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/huurder_contactgegevens.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/src/huurder_contracten.php",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/sftp-config.json",
+		"/Users/remco/Dropbox/Projecten/huttenbelt/js/custom.js",
+		"/Applications/MAMP/htdocs/himalayan/wp-content/themes/storefront/template-homepage.php",
+		"/Applications/MAMP/htdocs/himalayan/wp-content/themes/storefront/inc/customizer/display.php",
+		"/Applications/MAMP/htdocs/himalayan/wp-content/plugins/woocommerce/assets/css/woocommerce.css",
+		"/Applications/MAMP/htdocs/himalayan/wp-content/themes/storefront/inc/woocommerce/css/woocommerce-rtl.css",
+		"/Users/remco/python/filter-layers-qgis/Bronnamen.txt",
+		"/Users/remco/python/mysite/mysite/urls.py",
+		"/Users/remco/python/mysite/polls/views.py",
+		"/Users/remco/python/mysite/polls/urls.py",
+		"/Users/remco/Downloads/newproject/testapp/models.py",
+		"/Users/remco/.qgis2/python/plugins/SaveAttributes/save_attributes.py",
+		"/Users/remco/qgis-cursus/test.py",
+		"/Users/remco/Downloads/KML_Samples.kml",
+		"/Users/remco/Dropbox/Projecten/petersburg/werkmethodiek/0013/1-UC/Export/B-KL-10-Enexis-G16558.kml",
+		"/Users/remco/3-kaart/bronnen/B-LN-TenneT-VVL-GK110 R.txt",
+		"/Users/remco/3-kaart/bronnen/B-KL-20-Enexis-G29884.txt",
+		"/Users/remco/.qgis2/python/plugins/SaveAttributes/save_attributes_dialog_base.ui",
+		"/Users/remco/Dropbox/Projecten/petersburg/werkmethodiek/0013/1-UC/0013.dwg",
+		"/Users/remco/python-cursus/uitleg.txt",
+		"/Users/remco/python-cursus/forloop.py",
+		"/Users/remco/python-cursus/ex17.py",
+		"/Users/remco/python-cursus/ex10.py",
+		"/Users/remco/python-cursus/ex11.py",
+		"/Users/remco/python-cursus/ex5.py",
+		"/Users/remco/python-cursus/ex6.py",
+		"/Users/remco/python-cursus/ex8.py",
+		"/Users/remco/python-cursus/ex9.py",
+		"/Users/remco/python-cursus/ex4.py",
+		"/Users/remco/python-cursus/ex1.py",
+		"/Users/remco/python-cursus/ex20.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content",
+			"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce",
+			"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce/templates",
+			"/Users/remco/OneDrive/Projecten/HIMALAYAN/site/wp-content/plugins/woocommerce",
+			"/Applications/MAMP/htdocs/himalayan/wp-content/plugins/woocommerce/assets/css",
+			"/Applications/MAMP/htdocs/himalayan/wp-content/themes",
+			"/Applications/MAMP/htdocs/himalayan/wp-content/themes/proshop"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"node",
+			"NodeList",
+			"price",
+			"firstname",
+			"title",
+			"bookTitle",
+			"throw",
+			"services",
+			"axis2.clas",
+			"args",
+			"axis2",
+			"birthdate",
+			"String birthdate",
+			"get",
+			"sale",
+			"shop_loop_item",
+			"woocommerce_show_product_loop_sale_flash",
+			"sale",
+			"sale_flash",
+			"woocommerce_after_shop_loop_item",
+			"woocommerce_after_shop_loop_item_title",
+			"woocommerce_show_product_sale_flash",
+			"sale-flash",
+			"<span class=\"onsale",
+			"password",
+			"footer .widget h3",
+			"footer widget h3",
+			".site-footer h3",
+			".site-footer",
+			"ConstructorDemo",
+			"MyClass",
+			"fixed",
+			"count",
+			"name",
+			"Software",
+			"empOne",
+			"empTwo",
+			"empOne",
+			"26",
+			"empAge",
+			"26",
+			"empAge",
+			"empOne",
+			"name",
+			"Salary",
+			"Name",
+			"Puppy",
+			"@",
+			"self",
+			"SPANNING",
+			"step_three",
+			"filedata",
+			"rawdata",
+			"processed",
+			"data",
+			"else",
+			"filedata",
+			"correct_format",
+			"formatted_file",
+			"strip",
+			"code3",
+			"listView",
+			"run(self",
+			"featureamount",
+			"user",
+			">>>",
+			"LENGTE",
+			"DIAMETER",
+			"</span>",
+			"<span>",
+			">",
+			" class=\"s1\"",
+			" class=\"p1\"",
+			"</b>",
+			"<b>",
+			"<span>",
+			"</span>",
+			"label",
+			"aand",
+			"huur_plaats_parkeren_binnen",
+			"huur_m2_parkeren_buiten",
+			"vvo",
+			"max-width",
+			"max-widt",
+			"max-width",
+			".sidebar",
+			"grondwaarde",
+			"balansdatum_boekwaarde",
+			"indexatiedatum",
+			"verlengtermijn",
+			"huur_per_plaats_exc",
+			"huur_per_plaats_binnen_exc_btw",
+			"parkeren",
+			"$data",
+			"huurop",
+			"vvo",
+			"#payment .terms label",
+			"#order_review .shop_table",
+			".hentry .entry-header h1",
+			"p.stars a",
+			".single-product div.product .images",
+			"img",
+			"newwordlist",
+			"()",
+			"formatter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "introsde.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"wp-content/themes/proshop/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

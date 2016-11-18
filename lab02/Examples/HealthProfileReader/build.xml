@@ -31,7 +31,7 @@
     
     <target name="archive" depends="compile-person">
         <echo>Starting to archive...</echo>
-        <jar destfile="dist/project.jar" basedir="build">
+        <jar destfile="build/project.jar" basedir="build">
             <manifest>
                 <attribute name="Main-Class" value="HealthProfileReader" />
                 <attribute name="Class-Path" value="build"/>

@@ -1,0 +1,56 @@
+package introsde.rest.ehealth.resources;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Request;
+import javax.ws.rs.core.UriInfo;
+
+import introsde.rest.ehealth.dao.PersonDao;
+import introsde.rest.ehealth.model.Person;
+
+public class WeightHistoryResource {
+	
+	// Allows to insert contextual objects into the class,
+    // e.g. ServletContext, Request, Response, UriInfo
+    @Context
+    UriInfo uriInfo;
+    @Context
+    Request request;
+
+    // Return the list of people to the user in the browser
+    @GET
+    @Produces({MediaType.TEXT_XML, MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    public List<Person> getPersonsList() {
+        List<Person> people = new ArrayList<Person>();
+        people.addAll(PersonDao.instance.getDataProvider().values());
+        return people;
+    }
+    
+    // Defines that the next path parameter after the base url is
+    // treated as a parameter and passed to the PersonResources
+    // Allows to type http://localhost:599/person/1
+    // 1 will be treaded as parameter todo and passed to PersonResource
+    @Path("{personId}")
+    public PersonResource getPerson(@PathParam("personId") Long id) {
+        return new PersonResource(uriInfo, request, id);
+    }
+	
+//	List<HealthUpdates> history = new ArrayList<>();
+	
+//	@XmlElement(name="history")
+//	public List<Date> history() {
+//		Date date = new Date();
+//		System.out.println("Laatste update: " + date.toString());
+//		List<Date> mylist = new ArrayList<Date>();
+//		mylist.add(date);
+//		return mylist;
+//	}
+
+}

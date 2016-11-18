@@ -1,0 +1,16 @@
+package introsde.rest.ehealth.resources;
+
+public class WeightHistoryResource {
+	
+//	List<HealthUpdates> history = new ArrayList<>();
+	
+//	@XmlElement(name="history")
+//	public List<Date> history() {
+//		Date date = new Date();
+//		System.out.println("Laatste update: " + date.toString());
+//		List<Date> mylist = new ArrayList<Date>();
+//		mylist.add(date);
+//		return mylist;
+//	}
+
+}

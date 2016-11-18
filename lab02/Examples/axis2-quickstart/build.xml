@@ -21,8 +21,8 @@
 
     <property environment="env"/>
     <!-- Remember, update the following to fit your filesystem --> 
-    <property name="AXIS2_HOME" value="/opt/axis2-1.6.2"/>
-    <property name="AXIS2_HOME_TOMCAT" value="/opt/apache-tomcat-7.0.39/webapps/axis2"/>
+    <property name="AXIS2_HOME" value="/Users/remco/dev/lab-intro-sde/axis2-1.6.2"/>
+    <property name="AXIS2_HOME_TOMCAT" value="/Users/remco/dev/lab-intro-sde/apache-tomcat-8.5.5"/>
 
     <property name="build.dir" value="build"/>
 
