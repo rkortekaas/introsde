@@ -2,22 +2,24 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="install" key="selection"/>
+		<item value="GET" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="true" key="wholeword"/>
 		<list key="findhistory">
-			<item value="install"/>
-			<item value="classes"/>
-			<item value="web.dir"/>
-			<item value="lib.dir"/>
-			<item value="l"/>
-			<item value="examples"/>
-			<item value="src.dir"/>
-			<item value="src"/>
+			<item value="GET"/>
+			<item value="getmeasurename"/>
+			<item value="getPerson"/>
+			<item value="getperson"/>
+			<item value="getIdPerson"/>
+			<item value="getId"/>
+			<item value="getMeasureName()"/>
+			<item value="HistoryResourceCollection"/>
 		</list>
 		<list key="replacehistory">
+			<item value="HealthHistoryCollectionResource"/>
+			<item value=""/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

@@ -114,6 +114,11 @@
 				<include name="*.xml" />
 			</fileset>
 		</copy>
+		<copy todir="${web.dir}/WebContent/META-INF" overwrite="true">
+			<fileset dir="${src.dir}/META-INF">
+				<include name="*.xml" />
+			</fileset>
+		</copy>
 	</target>
 
 	<!-- make sure you have created first the WebContent folder, including a META-INF folder, WEB-INF/web.xml file and WEB-INF/lib folder --> 

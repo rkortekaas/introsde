@@ -1,5 +1,0 @@
-package introsde.rest.ehealth.dao;
-
-public class WeightHistoryDao {
-
-}

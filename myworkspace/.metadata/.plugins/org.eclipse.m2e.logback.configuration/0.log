@@ -57,3 +57,26 @@
 
 2016-11-18 11:10:42,955 [Thread-13] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
 
+2016-11-21 13:11:32,016 [Thread-10] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-22 09:24:48,031 [Thread-13] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-22 11:28:15,694 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @6395235ms
+2016-11-22 11:28:15,868 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2016-11-22 11:28:15,936 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@6e0b849a{/help,null,AVAILABLE}
+2016-11-22 11:28:15,948 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@219f8586{HTTP/1.1,[http/1.1]}{127.0.0.1:53594}
+2016-11-22 11:28:15,949 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @6395491ms
+2016-11-22 15:57:17,072 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@219f8586{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2016-11-22 15:57:17,090 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@6e0b849a{/help,null,UNAVAILABLE}
+2016-11-22 17:59:58,156 [Thread-12] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-23 09:58:29,607 [Thread-10] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-23 16:38:22,225 [Thread-11] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-23 20:48:25,858 [Thread-12] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-25 12:10:00,053 [Thread-12] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+
+2016-11-25 12:11:55,106 [Thread-10] ERROR org.eclipse.jgit.util.FS - fatal: Could not switch to '/Applications/Xcode.app/Contents/Developer/usr/etc/': No such file or directory
+

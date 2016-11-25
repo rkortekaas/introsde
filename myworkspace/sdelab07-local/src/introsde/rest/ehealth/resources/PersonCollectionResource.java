@@ -86,7 +86,7 @@ public class PersonCollectionResource {
 		p.setName(firstname);
 		p.setLastname(lastname);
 		Person.savePerson(p);
-		servletResponse.sendRedirect("http://www.google.com/");
+		servletResponse.sendRedirect("../NewPerson.html");
 	}
 	
 	
