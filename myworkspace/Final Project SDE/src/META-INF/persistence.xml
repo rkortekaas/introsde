@@ -8,6 +8,8 @@
 		<class>introsde.rest.ehealth.model.LifeStatus</class>
 		<class>introsde.rest.ehealth.model.Activity</class>
 		<class>introsde.rest.ehealth.model.Goal</class>
+        <class>introsde.rest.ehealth.model.Nutrition</class>
+		<class>introsde.rest.ehealth.model.Diet</class>
         <properties>
             <property name="hibernate.archive.autodetection" value="class, hbm"/>
             <property name="javax.persistence.jdbc.driver" value="org.sqlite.JDBC" />

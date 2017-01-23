@@ -111,4 +111,14 @@ public class PersonResourceCollection {
     	return new GoalResource(uriInfo, request, id, gid);
     }
     
+    @Path("{personId}/nutrition")
+    public NutritionResourceCollection getNutritionsPerson(@PathParam("personId") int id) {
+    	return new NutritionResourceCollection(uriInfo, request, id);
+    }
+    
+    @Path("{personId}/nutrition/{nid}")
+    public NutritionResource getNutrition(@PathParam("personId") int id, @PathParam("nid") int nid) {
+    	return new NutritionResource(uriInfo, request, id, nid);
+    }
+    
 }

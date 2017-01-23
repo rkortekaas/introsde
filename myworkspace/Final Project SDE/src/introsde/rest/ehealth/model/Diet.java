@@ -28,10 +28,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Diet implements Serializable {
 	private static final long serialVersionUID = 1L;
-
 	@Id
-	@GeneratedValue(generator="sqlite_mhistory")
-	@TableGenerator(name="sqlite_mhistory", table="sqlite_sequence",
+	@GeneratedValue(generator="sqlite_diet")
+	@TableGenerator(name="sqlite_diet", table="sqlite_sequence",
 	    pkColumnName="name", valueColumnName="seq",
 	    pkColumnValue="Diet")
 	@Column(name="idDiet")
@@ -89,5 +88,64 @@ public class Diet implements Serializable {
 	public void setNutrition(Nutrition nutrition) {
 		this.nutrition = nutrition;
 	}
+	
+	// db operations
+	
+	public static Diet saveDiet(Diet d, int id) {
+		Nutrition n = Nutrition.getNutritionById(id);
+        d.setNutrition(n);
+    	
+        EntityManager em = LifeCoachDao.instance.createEntityManager();
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+        em.persist(d);
+        tx.commit();
+        LifeCoachDao.instance.closeConnections(em);
+        return d;
+    } 
+
+    public static Diet updateDiet(Diet d, int id, int did) {
+        Nutrition n = Nutrition.getNutritionById(id);
+        d.setNutrition(n);
+        d.setIdDiet(did);
+    	
+    	EntityManager em = LifeCoachDao.instance.createEntityManager(); 
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+        d=em.merge(d);
+        tx.commit();
+        LifeCoachDao.instance.closeConnections(em);
+        return d;
+    }
+
+    public static void removeDiet(Diet d) {
+        EntityManager em = LifeCoachDao.instance.createEntityManager();
+        EntityTransaction tx = em.getTransaction();
+        tx.begin();
+        d=em.merge(d);
+        em.remove(d);
+        tx.commit();
+        LifeCoachDao.instance.closeConnections(em);
+    }
+    
+	public static Diet getDietById(int dietId) {
+        EntityManager em = LifeCoachDao.instance.createEntityManager();
+        Diet d = em.find(Diet.class, dietId);
+        LifeCoachDao.instance.closeConnections(em);
+        return d;
+    }
+    
+    public static List<Diet> getAll(int nutritionId) {
+    	EntityManager em = LifeCoachDao.instance.createEntityManager();
+        List<Diet> list = em.createNamedQuery("Diet.findAll", Diet.class)
+            .getResultList();
+        LifeCoachDao.instance.closeConnections(em);
+        for (int index = list.size()-1 ; index >= 0 ; index--){
+        	if ((list.get(index).getNutrition().getIdNutrition()!=nutritionId) ){
+        		list.remove(index);
+        	}
+        }
+        return list;
+    }
 	
 }
